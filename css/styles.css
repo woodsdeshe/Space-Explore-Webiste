@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Astro Space';
+    src: url(../assets/AstroSpace-eZ2Bg.ttf);
+}
+
+@font-face {
+    font-family: 'Trench Thin';
+    src: url(../assets/Agelast-mLlAm.otf);
+}
+
+body {
+    background: url(../assets/home/background-home-desktop.jpg);
+}
+
+/*----------------------------Global Styles-------------------------*/
+
+:root {
+    --Astro: 'Astro Space';
+    --Trench: 'Trench Thin';
+}
+
+html {
+    color: #FFFF;
+}
+
+/*--------------X------------Global Styles---------------X----------*/
