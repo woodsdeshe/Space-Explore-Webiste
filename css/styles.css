@@ -1,26 +1,61 @@
 @font-face {
-    font-family: 'Astro Space';
-    src: url(../assets/AstroSpace-eZ2Bg.ttf);
+    font-family: 'Bellefair';
+    src: url(../css/fonts/Bellefair-Regular.ttf);
 }
 
 @font-face {
-    font-family: 'Trench Thin';
-    src: url(../assets/Agelast-mLlAm.otf);
+    font-family: 'BarlowCondensed';
+    src: url(./fonts/BarlowCondensed-Regular.ttf);
 }
+
+
 
 body {
     background: url(../assets/home/background-home-desktop.jpg);
+    
 }
-
-/*----------------------------Global Styles-------------------------*/
 
 :root {
-    --Astro: 'Astro Space';
-    --Trench: 'Trench Thin';
+    /*-------------Fonts--------------*/
+    --Bellefair: 'Bellefair';
+    --Barlow: 'BarlowCondensed';
+
+    /*-------------Fonts--------------*/
+    --backgblack: #0B0D17;
+    --softblue: #D0D6F9;
+    --offwhite: #FFFFFF;
+}
+/*----------------------------Global Styles-------------------------*/
+
+
+
+a{
+    font-family: var(--Barlow);
+    color: var(--offwhite);
 }
 
-html {
-    color: #FFFF;
-}
+
 
 /*--------------X------------Global Styles---------------X----------*/
+
+
+/*----------------------------NavBar Styles-------------------------*/
+
+.nav-right{
+    position: absolute;
+    width: 830px;
+    height: 96px;
+    left: 610px;
+    top: 40px;
+    background: rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(40.7742px);
+}
+
+.nav-right a{
+   float: left;
+   padding: 2rem 3rem;
+
+}
+
+
+/*--------------X------------NavBar Styles---------------X----------*/
